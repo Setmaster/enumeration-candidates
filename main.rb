@@ -4,6 +4,14 @@ require 'pp'
 require './candidates'
 require './filters'
 
-## Your test code can go here
-
 pp @candidates
+
+puts
+puts 'qualified_candidates:'
+pp qualified_candidates(@candidates)
+
+puts
+puts 'ordered_by_qualifications:'
+pp ordered_by_qualifications(@candidates)
+
+pp find(10)
